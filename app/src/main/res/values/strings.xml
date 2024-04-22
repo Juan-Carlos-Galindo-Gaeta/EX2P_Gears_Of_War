@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Exm_SP_Juan_Carlos_Galindo_Gaeta</string>
+    <string name="title_activity_ndsp">NDSP</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Gears</string>
+    <string name="nav_header_subtitle">Los Mejores Juegos</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Gears</string>
+    <string name="menu_gallery">Gears 2</string>
+    <string name="menu_slideshow">Gears 3</string>
+</resources>

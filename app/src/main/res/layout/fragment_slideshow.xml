@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".ui.slideshow.SlideshowFragment">
+
+    <TextView
+        android:id="@+id/text_slideshow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.011"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Gears of war 3"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="172dp"
+        android:layout_height="251dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/gears3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="386dp"
+        android:layout_height="471dp"
+        android:layout_marginTop="184dp"
+        android:justificationMode="inter_word"
+        android:text="Gears of War 3 continúa la saga de lucha contra los Locust en el planeta Sera. Después de los eventos de Gears of War 2, la humanidad está al borde de la extinción debido a la amenaza de los Locust y la creciente contaminación del Imulsion, una fuente de energía vital. La Coalición de Gobiernos Ordenados (COG) está luchando una guerra desesperada contra los Locust y también contra la Horda Lambent, una nueva y peligrosa forma de vida mutante creada por la exposición al Imulsion.
+
+El juego sigue al soldado Marcus Fenix y su escuadrón Delta Squad, incluyendo a Dominic Santiago, Anya Stroud y otros personajes clave. La misión principal de Delta Squad es encontrar una manera de detener tanto a los Locust como a la Horda Lambent para salvar a la humanidad.
+
+Durante su viaje, Delta Squad enfrenta numerosos desafíos, incluyendo batallas épicas contra enemigos formidables como el monstruoso Leviathan Lambent y la Reina Myrrah, líder de los Locust. La historia también explora la relación entre los personajes y revela detalles sobre el pasado de Marcus Fenix, incluyendo la verdad detrás de la desaparición de su padre, el científico Adam Fenix.
+
+A lo largo del juego, los jugadores experimentan intensos combates, emocionantes momentos de acción y una narrativa cargada de emociones mientras luchan por la supervivencia de la humanidad en un mundo al borde del colapso.
+
+Gears of War 3 recibió elogios por su jugabilidad refinada, su modo multijugador mejorado y su conclusión satisfactoria para la trilogía original de Gears of War.
+"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.36"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

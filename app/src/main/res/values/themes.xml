@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Exm_SP_Juan_Carlos_Galindo_Gaeta" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Exm_SP_Juan_Carlos_Galindo_Gaeta" parent="Base.Theme.Exm_SP_Juan_Carlos_Galindo_Gaeta" />
+
+    <style name="Theme.Exm_SP_Juan_Carlos_Galindo_Gaeta.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Exm_SP_Juan_Carlos_Galindo_Gaeta.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Exm_SP_Juan_Carlos_Galindo_Gaeta.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Gears of war"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="172dp"
+        android:layout_height="251dp"
+        android:layout_marginTop="64dp"
+        android:src="@drawable/gears1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="396dp"
+        android:layout_height="446dp"
+        android:layout_marginTop="280dp"
+        android:justificationMode="inter_word"
+        android:text="Gears of War es un juego de disparos en tercera persona desarrollado por Epic Games. La historia se sitúa en el planeta Sera, donde la humanidad está luchando contra una raza alienígena conocida como los Locust. Los Locust emergen de agujeros llamados madrigueras en la superficie de Sera y atacan a la población humana de forma brutal.El juego sigue al soldado Marcus Fenix, quien es liberado de una prisión militar para unirse a un escuadrón de fuerzas especiales llamado Delta Squad. Marcus trabaja junto a su amigo de la infancia, Dominic Santiago, para luchar contra los Locust y descubrir la verdad detrás de su avance. Durante la misión, Delta Squad se enfrenta a varios desafíos, incluyendo enfrentamientos con Locust poderosos como el General RAAM. También descubren que los Locust están utilizando criaturas llamadas Kryll como arma para destruir a los humanos. La historia se centra en la lucha desesperada de Delta Squad por detener la invasión Locust y encontrar una manera de derrotar a estos enemigos aparentemente invencibles. A medida que avanzan, descubren secretos oscuros sobre el pasado de Sera y la verdadera naturaleza de la guerra. Gears of War recibió elogios por su jugabilidad, gráficos y atmósfera inmersiva, estableciéndose como una franquicia popular en la industria de los videojuegos."
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
